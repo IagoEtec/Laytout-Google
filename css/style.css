@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #FFF;
+    font-size: 30px;
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    background: #4285F4;
+    height: 60px;
+}
+
+.main {
+    background: #EA4A3C;
+    flex-grow: 1;
+}
+
+.footer {
+    color: #687682;
+    background: #2F2F2F;
+    height: 60px;
+    border-bottom: 1px solid #DDDFE3;
+}
